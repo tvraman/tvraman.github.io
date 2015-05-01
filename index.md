@@ -2,6 +2,7 @@
 Over time this site will host Emacspeak blog content, and other material relevant to my Open Source projects.
 
 ## Emacspeak ##
+* [GitHub: Releases](https://github.com/tvraman/emacspeak/releases/)
 *  [GitHub:Source Code](https://github.com/tvraman/emacspeak)
 *  [SourceForge Project Pages](http://emacspeak.sf.net)
 
