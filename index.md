@@ -4,7 +4,7 @@ Over time this site will host Emacspeak blog content, and other material relevan
 ## Emacspeak ##
 * [GitHub: Releases](https://github.com/tvraman/emacspeak/releases/)
 *  [GitHub:Source Code](https://github.com/tvraman/emacspeak)
-* [Project Pages](./emacspeak) User manual, Blog articles, Web pages.
+* [GitHub:Project Pages](./emacspeak) User manual, Blog articles, Web pages.
 *  [SourceForge Project Pages](http://emacspeak.sf.net)
 
 
