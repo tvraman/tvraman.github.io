@@ -1,7 +1,12 @@
 # TVRaman: GitHub Home #
-<table><tr><td><img src="animated-raman-and-tilden.gif"
+<table><tr><td colspan=2><img src="animated-raman-and-tilden.gif"
 width="638" height="850" alt="Raman And Tilden"/>
-</td></tr></table>
+</td></tr>
+<tr>
+<td><a href="vita/resume.pdf">Resume (PDF)</a></td>
+<td><a href="vita/resume.html">Resume (HTML)</a></td>
+</tr>
+</table>
 
 Over time this site will host Emacspeak blog content, and other material relevant to my Open Source projects.
 
