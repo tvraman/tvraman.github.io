@@ -1,5 +1,5 @@
 % T. V. Raman
-# TVRaman: GitHub Home #
+
 <table><tr><td colspan=2><img src="animated-raman-and-tilden.gif"
 width="638" height="850" alt="Raman And Tilden"/>
 </td></tr>
