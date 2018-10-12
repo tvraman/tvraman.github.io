@@ -15,7 +15,7 @@ width="638" height="850" alt="Raman And Tilden"/>
 * [GitHub: Releases](https://github.com/tvraman/emacspeak/releases/)
 *  [GitHub:Source Code](https://github.com/tvraman/emacspeak)
 * [GitHub:Project Pages](./emacspeak) User manual, Blog articles, Web pages.
-*  [SourceForge Project Pages](http://emacspeak.sf.net)
+*  [SourceForge](http://emacspeak.sf.net)
 
 
 ## Audio System For Technical Readings (AsTeR) ##
