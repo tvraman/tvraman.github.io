@@ -1,0 +1,68 @@
+* Compound of 5 rhombic dodecahedra
+
+I built this during Thanksgiving 2003.
+The notation used below comes from ZomeTool.
+
+| [[./5r12-01.jpg][Compount Of 5 Rhombic Dodecahedra 01]] | [[./[5r12-02.jpg][Compound Of 5 Rhombic Dodecahedra 02]]       |
+| [[./5r12.thm][Video Thumbnail]]                      | [[./5r12.avi][Video Of Compound Of 5 Rhombic Dodecahedra]] |
+
+The R12 (rhombic dodecahedron ) is of size Y4 == (Y2+Y1+Y2) and
+is built around a B3 dodecahedron. 
+
+The interior of the B3 dodecahedron contains the following
+starting from the inside:
+
+1. B1 Dodecahedron                                 (30, 20)
+2. Its stellation using B2  (Kepler star)          (60, 12)
+3. B3 Great dodecahedron                            (30, 0)
+4. R2 rhombic triacontahedron                      (30, 20)
+5. Y2 struts connecting above to its B2 dual       (60, 30)
+6. Y3 struts connecting it to the B3 dodecahedron  (60, 30)
+7. B3dodecahedron                                  (30, 0)
+8. Compound of 5 R12 size Y2+Y1+Y2=Y4              (360, 50)
+
+** Number of pieces:
+
+#+begin_src emacs-lisp
+(setq pieces
+      '(
+        (30 20)                         ;B1 dodecahedron 
+        (60 12)                         ;B2 stellation 
+        (30 0)                          ;B2 great dodecahedron
+        (30 20)                      ; R2 rhombic triacontahedron
+        (60 30)   ;y2 scaffolding dual to rhombic triacontahedron
+        (30 0)                ;B2 dual to rhombic triacontahedron
+        (60 30)               ;Y3 scaffolding for B3 dodecahedron
+        (30 0)                          ; B3 dodecahedron 
+        (240 30)                    ;Y2 pieces in 5R12 compound 
+        (120 120)                      ; y1 pieces in 5R12 compound
+        )
+      )
+
+(setq nodes 
+      (apply'+ (mapcar 'cadr pieces)))
+;;; nodes = 262
+
+(setq struts
+      (apply '+ (mapcar 'car pieces)))  ;690
+
+;;; Struts = 690 
+
+(setq total (+ struts nodes)) 
+
+;;; Total pieces:  952
+#+end_src
+
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:nil todo:t |:t
+#+title: Compound Of 5 Rhombic Dodecahedra.
+#+date: <2020-11-09 Mon>
+#+author: T.V Raman
+#+email: raman@google.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.0.50 (Org mode 9.3)
