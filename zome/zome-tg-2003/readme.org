@@ -3,7 +3,7 @@
 I built this during Thanksgiving 2003.
 The notation used below comes from ZomeTool.
 
-| [[./5r12-01.jpg][Compount Of 5 Rhombic Dodecahedra 01]] | [[./[5r12-02.jpg][Compound Of 5 Rhombic Dodecahedra 02]]       |
+| [[./5r12-01.jpg][Compount Of 5 Rhombic Dodecahedra 01]] | [[./5r12-02.jpg][Compound Of 5 Rhombic Dodecahedra 02]]       |
 | [[./5r12.thm][Video Thumbnail]]                      | [[./5r12.avi][Video Of Compound Of 5 Rhombic Dodecahedra]] |
 
 The R12 (rhombic dodecahedron ) is of size Y4 == (Y2+Y1+Y2) and
