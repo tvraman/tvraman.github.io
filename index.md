@@ -27,7 +27,8 @@ width="638" height="850" alt="Raman And Tilden"/>
 Audio System For Technical Readings (AsTeR) was implemented for my PhD
 at Cornell and awarded The [ACM Doctoral Dissertation Award](http://www.acm.org/awards/dd_citation/1994B.html) in 1994.
 
-* [GitHub Source Code](https://github.com/tvraman/aster-math)
+* [GitHub Source Code](https://github.com/tvraman/aster-math) Now
+  works with Software DECtalk
 * [Interactive Demo](http://emacspeak.sourceforge.net/raman/aster/aster-toplevel.html)
 ## Tilden Epitaph ##
 * [Tilden Epitaph](tilden-epitaph.html)
